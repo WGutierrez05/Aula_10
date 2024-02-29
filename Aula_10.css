@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+
+}
+.coracao{
+    font-size: 150px;
+    color: red;
+    animation: coracao .25s infinite alternate;
+    transform-origin: center;
+}
+
+
+@keyframes coracao{
+    to {scale:1.4;}
+}
